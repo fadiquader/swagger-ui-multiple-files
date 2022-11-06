@@ -1,0 +1,13 @@
+{
+  "name": "swagger-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.1"
+  },
+  "scripts": {
+    "build-config": "node ./scripts/build-swagger-config.js",
+    "dev": "yarn run build-config && serve"
+  }
+}

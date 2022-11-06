@@ -1,0 +1,4 @@
+.idea
+node_modules
+swagger-config.json
+yarn.lock
